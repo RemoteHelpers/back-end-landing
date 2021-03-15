@@ -1,0 +1,97 @@
+@media (max-width: 767px) {
+    #main {
+        background: no-repeat url('../../assets/main_page/vacancy-header_icons/mobile/bg.png');
+        background-color: #171018;
+        background-size: 100% 100%;
+    }
+    #main-wrapper .header {
+        display: block;
+        margin-bottom: 30px;
+    }
+    #main #main-wrapper header section {
+        display: flex;
+        justify-content: space-between;
+    }
+    #main #main-wrapper header span {
+        margin: auto 0px;
+    }
+    #main-wrapper #main-wrapper-vacancy h1:nth-child(1) {
+        color: #8E3CF6;
+        font-family: Montserrat-Extrabold;
+        font-weight: 900;
+        font-size: 34px;
+    }
+    #main-wrapper #main-wrapper-vacancy h1:nth-child(2) {
+        color: #fff;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 125%;
+        padding-bottom: 50px;
+    }
+    #main-wrapper #main-wrapper-vacancy p {
+        font-family: Montserrat-Thin;
+        font-size: 18px;
+        font-weight: 400px;
+        padding-bottom: 30px;
+        margin: auto;
+    }
+    #main #main-wrapper .header section #burger-img {
+        text-align: right;
+    }
+    .mobile-nav-menu {
+        display: block;
+        position: absolute;
+        padding: 20px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        opacity: 1;
+        background-color: rgba(0,0,0,0.8);
+        z-index: 50;
+        text-align: right;
+    }
+    .mobile-nav-menu-a {
+        margin-left: auto;
+        margin-bottom: 20px;
+        display: block;
+        width: max-content;
+        color: #fff;
+        font-family: Montserrat-Extrabold;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 150%;
+        z-index: 100;
+    }
+    .button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 75px;
+        text-decoration: none;
+        background: #8E3CF6;
+        border: 1px solid #8E3CF6;
+        box-sizing: border-box;
+        font-family: Montserrat-semibold;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+    .mobile-close-btn {
+        display: none;
+        padding-bottom: 30px;
+    }
+    .mobile-nav-hidden {
+        display: none;
+    }
+    .mobile-girl-img {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}

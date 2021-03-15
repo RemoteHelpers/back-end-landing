@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #description {
+        background: no-repeat url("../../assets/main_page/description_icons/desktop/bg.png");
+        background-color: #171018;
+        background-size: 100% 100%;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    #description #description-wrapper {
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    #description #laptop-img {
+        display: none;
+    }
+    #description #description-wrapper #description-wrapper-content {
+        width: 350px
+    }
+    #description #description-wrapper #description-wrapper-content h2 {
+        padding-bottom: 30px;
+    }
+    #description #description-wrapper #description-wrapper-content p {
+        font-family: 'Montserrat-Regular';
+        padding-bottom: 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+}

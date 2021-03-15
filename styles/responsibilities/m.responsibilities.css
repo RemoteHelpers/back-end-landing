@@ -1,0 +1,96 @@
+@media (max-width: 767px) {
+    #responsibilities {
+        background-color: #171018;
+    }
+    #responsibilities #responsibilities-container {
+        background: no-repeat url('../../assets/main_page/responsibilities-footer_icons/mobile/bg.png');
+        background-size: 100% 100%;
+    }
+    #responsibilities #responsibilities-wrapper #responsibilities-wrapper-heading {
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    #responsibilities #responsibilities-wrapper #responsibilities-container #responsibilities-container-list #responsibilities-container-list-item {
+        padding-bottom: 50px;
+    }
+    #responsibilities #responsibilities-wrapper #form {
+        display: grid;
+        grid-template-areas: "d" "i";  
+        text-align: center;
+    }
+    #responsibilities #form #form-heading {
+        margin-bottom: 50px; 
+    }
+    #responsibilities #responsibilities-wrapper #form img {
+        width: 100%;
+        grid-area: i;
+
+    }
+    #responsibilities #responsibilities-wrapper #form div {
+        margin-top: 35px;
+        grid-area: d;
+    }
+    #responsibilities #responsibilities-wrapper #form #form-wrapper section {
+        border-bottom: 1px solid #fff;
+        display: flex;
+    }
+
+    #responsibilities #form #form-wrapper section .danger {
+        display: block;
+        position: absolute;
+        margin-top: 70px;
+        color: red;
+    }
+
+    #responsibilities #responsibilities-wrapper #form #form-wrapper section label {
+        height: 23px;
+        width: 23px;
+        color: green;
+        position: relative;
+        top: 30px;
+    }
+    #responsibilities #responsibilities-wrapper #form #form-wrapper section input{
+        width: 100%;
+        color: #fff;
+        padding: 30px 0px 15px 0px;
+        background: none;
+        outline: none;
+        border: 0px;
+        display: block;
+        font-family: Montserrat-Regular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #responsibilities #responsibilities-wrapper #form #form-wrapper button {
+        width: 100%;
+        padding: 10px 80px 10px 80px;
+        text-decoration: none;
+        background: #8E3CF6;
+        border: 1px solid #8E3CF6;
+        box-sizing: border-box;
+        font-family: Montserrat-semibold;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+
+    #responsibilities #form #form-wrapper .disabled { 
+        border: 1px solid black!important;
+        cursor: not-allowed;
+        background-color: grey!important;
+    }
+    #responsibilities #form #form-wrapper .disabled:hover { 
+        color: #fff;
+        background-color: grey;
+    }
+    #responsibilities #form #form-wrapper .disabled:active { 
+        background-color: grey;
+    }
+}

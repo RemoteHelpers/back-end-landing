@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+    footer #footer-wrapper #contacts {
+        display: grid;
+        grid-template-areas: "c1" "c2" "c3" "e" "a" "s";
+        margin-top: 50px;
+    }
+    footer #footer-wrapper #contacts .contact1 {
+        grid-area: c1;
+    }   
+    footer #footer-wrapper #contacts .contact2 {
+        grid-area: c2;
+    }   
+    footer #footer-wrapper #contacts .contact3 {
+        grid-area: c3;
+    }   
+    footer #footer-wrapper #contacts .socials {
+        grid-area: s;
+    }   
+    footer #footer-wrapper #contacts .email {
+        margin-top: 30px;
+        grid-area: e;
+    }   
+    footer #footer-wrapper #contacts .address {
+        margin-bottom: 30px;
+        grid-area: a;
+    }   
+    footer #footer-wrapper #contacts .contact1 a p, footer #footer-wrapper #contacts .contact2 a p, footer #footer-wrapper #contacts .contact3 a p {
+        font-size: medium;
+        margin-right: 10px;
+    }   
+    footer #footer-wrapper #contacts .email p, footer #footer-wrapper #contacts .address p {
+        font-size: medium;
+    }    
+
+    footer #footer-wrapper #contacts .contact1, .contact2, .contact3 {
+        margin-bottom: 15px;
+        display: block;
+    }
+    footer #footer-wrapper #contacts .contact1 a, .contact2 a, .contact3 a {
+        display: grid;
+        grid-template-columns: auto 1fr 1fr;
+    }
+
+    footer #footer-wrapper #contacts a img {
+        margin-right: 15px;
+    }
+    footer #footer-wrapper #contacts a p {
+        margin: auto 0px auto;
+        color: #fff;
+    }
+
+    footer #footer-wrapper #contacts .socials {
+        display: grid;
+        grid-template-areas: "insta fb telegram whatsapp viber";
+    }
+    footer #footer-wrapper #contacts .socials #viber {
+        grid-area: viber;
+    }
+    footer #footer-wrapper #contacts .socials #fb {
+        grid-area: fb;
+    }
+    footer #footer-wrapper #contacts .socials #insta {
+        grid-area: insta;
+    }
+    footer #footer-wrapper #contacts .socials #whatsapp {
+        grid-area: whatsapp;
+    }
+    footer #footer-wrapper #contacts .socials #telegram {
+        grid-area: telegram;
+    }
+    footer #footer-wrapper #contacts .socials a {
+        margin: auto;
+    }
+    footer #copy {
+        display: none;
+    }
+}

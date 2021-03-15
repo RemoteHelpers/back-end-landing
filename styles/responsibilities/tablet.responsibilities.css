@@ -1,0 +1,143 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+#responsibilities #responsibilities-wrapper {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#responsibilities #form img {
+    width: 60%;
+    margin-top: auto;
+}
+#responsibilities {
+    background: no-repeat url('../../assets/main_page/responsibilities-footer_icons/desktop/bg.png');
+    background-color: #171018;
+    background-size: 100% 100%;
+    padding-bottom: 15px;
+}
+
+#responsibilities #responsibilities-wrapper #responsibilities-wrapper-heading {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#responsibilities #responsibilities-container #responsibilities-container-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+#responsibilities #responsibilities-container #responsibilities-container-list #responsibilities-container-list-item {
+    width: 25vw;
+}
+#responsibilities #responsibilities-container #responsibilities-container-list #responsibilities-container-list-item .responsibilities-container-list-item-heading {
+    overflow-wrap: break-word;
+}
+
+#responsibilities #responsibilities-container #responsibilities-container-list #responsibilities-container-list-item p {
+    text-align: left;
+    color: #fff;
+    font-family: Montserrat-Thin;
+    font-weight: 400px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+}
+
+#responsibilities #form {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#responsibilities #form h2 {
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+#responsibilities #form h2, p {
+    color: #fff;
+}
+
+#responsibilities #form #form-wrapper input {
+    width: 100%;
+    color: #fff;
+    padding: 30px 0px 15px 0px;
+    background: none;
+    outline: none;
+    border: 0px;
+    display: block;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#responsibilities #form #form-wrapper section {
+    border-bottom: 1px solid #fff;
+    display: flex;
+}
+
+#responsibilities #form #form-wrapper section .danger {
+    display: block;
+    position: absolute;
+    margin-top: 70px;
+    color: red;
+}
+
+#responsibilities #form #form-wrapper section label {
+    height: 23px;
+    width: 23px;
+    color: green;
+    position: relative;
+    top: 30px;
+}
+
+#responsibilities #form #form-wrapper .danger {
+    color: red;
+}
+
+#responsibilities #form #form-wrapper button {
+    width: 100%;
+    padding: 10px 80px 10px 80px;
+    text-decoration: none;
+    background: #8E3CF6;
+    border: 1px solid #8E3CF6;
+    box-sizing: border-box;
+    font-family: Montserrat-semibold;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+#responsibilities #form #form-wrapper button:hover {
+    background-color: #fff;
+    color: #8E3CF6;
+}
+
+#responsibilities #form #form-wrapper button:active {
+    background-color: #8E3CF6;
+    color: #000000;
+}
+
+#responsibilities #form #form-wrapper .disabled { 
+    cursor: not-allowed;
+    background-color: grey;
+    border: 1px solid black;
+}
+#responsibilities #form #form-wrapper .disabled:hover { 
+    color: #fff;
+    background-color: grey;
+}
+#responsibilities #form #form-wrapper .disabled { 
+    background-color: grey;
+}
+
+}

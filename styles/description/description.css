@@ -1,0 +1,30 @@
+@media (min-width: 1200px) {
+    #description #description-wrapper #description-wrapper-content {
+        width: 570px
+    }
+
+    #description {
+        background: no-repeat url("../../assets/main_page/description_icons/desktop/bg.png");
+        background-color: #171018;
+        background-size: 100% 100%;
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+    #description #laptop-img {
+        display: none;
+    }
+    #description #description-wrapper #description-wrapper-content h2 {
+        padding-bottom: 30px;
+    }
+    #description #description-wrapper #description-wrapper-content p {
+        font-family: 'Montserrat-Regular';
+        padding-bottom: 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+
+}

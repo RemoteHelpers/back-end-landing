@@ -1,0 +1,210 @@
+@media (max-width: 767px) {
+    h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 130%;
+        letter-spacing: 0.248px;
+        color: #8E3CF6;
+    }
+    p {
+        font-family: Montserrat-Regular;
+        font-weight: 400px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        color: #fff;
+    }
+    h2 {
+        font-family: Montserrat-Extrabold;
+        font-style: normal;
+        line-height: 150%;
+        color: #fff;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        color: #fff;
+    }
+    h3 {
+        font-family: Montserrat-bold;
+        font-size: 21px;
+        color: #fff;
+    }
+    h1, div, body, h3, h2, a, span {
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-color: #171018;
+        display: flex;
+    }
+    #container #wrapper {
+        padding: 10px;
+        width: 90vw;
+        margin: auto;
+    }
+    #container #wrapper header section {
+        display: flex;
+        justify-content: space-between;
+    }
+    #container #wrapper header section #burger-img {
+        text-align: right;
+        margin: auto 0px;
+    }
+    .mobile-nav-menu {
+        display: block;
+        position: absolute;
+        padding: 20px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 50;
+        text-align: right;
+    }
+    .mobile-nav-menu-a {
+        margin-left: auto;
+        margin-bottom: 20px;
+        display: block;
+        width: max-content;
+        color: #fff;
+        font-family: Montserrat-Extrabold;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 150%;
+        z-index: 100;
+    }
+    .mobile-close-btn {
+        display: none;
+        padding-bottom: 30px;
+    }
+    .mobile-nav-hidden {
+        display: none;
+    }
+    #container #wrapper #content {
+        background: no-repeat url("../../assets/thank_you_page/mobile/bg.png");
+        background-size: 100%;
+        padding-top: 100px;
+    }
+    #button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 75px;
+        text-decoration: none;
+        background: #8E3CF6;
+        border: 1px solid #8E3CF6;
+        box-sizing: border-box;
+        font-family: Montserrat-semibold;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin-bottom: 100px;
+    }
+
+    #content #button:hover {
+        background-color: #fff;
+        color: #8E3CF6;
+    }
+    
+     #content #button:active {
+        background-color: #8E3CF6;
+        color: #000000;
+    }
+
+    #container #wrapper #content #msg {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    #container #logo-footer {
+        margin-bottom: 50px;
+    }
+    .hidden {
+        display: none;
+    }
+
+        footer #footer-wrapper #contacts {
+            display: grid;
+            grid-template-areas: "c1" "c2" "c3" "e" "a" "s";
+            margin-top: 50px;
+        }
+        footer #footer-wrapper #contacts .contact1 {
+            grid-area: c1;
+        }   
+        footer #footer-wrapper #contacts .contact2 {
+            grid-area: c2;
+        }   
+        footer #footer-wrapper #contacts .contact3 {
+            grid-area: c3;
+        }   
+        footer #footer-wrapper #contacts .socials {
+            grid-area: s;
+        }   
+        footer #footer-wrapper #contacts .email {
+            margin-top: 30px;
+            grid-area: e;
+        }   
+        footer #footer-wrapper #contacts .address{
+            margin-bottom: 30px;
+            grid-area: a;
+        }   
+        footer #footer-wrapper #contacts .contact1 a p, footer #footer-wrapper #contacts .contact2 a p, footer #footer-wrapper #contacts .contact3 a p {
+            font-size: medium;
+            margin-right: 10px;
+        }   
+        footer #footer-wrapper #contacts .email p, footer #footer-wrapper #contacts .address p {
+            font-size: medium;
+        }   
+        footer #footer-wrapper #contacts .contact1, .contact2, .contact3 {
+            margin-bottom: 15px;
+            display: block;
+        }
+        footer #footer-wrapper #contacts .contact1 a, .contact2 a, .contact3 a {
+            display: grid;
+            grid-template-columns: auto 1fr 1fr;
+        }
+    
+        footer #footer-wrapper #contacts a img {
+            margin-right: 15px;
+        }
+        footer #footer-wrapper #contacts a p {
+            margin: auto 0px auto;
+            color: #fff;
+        }
+        
+        footer #footer-wrapper #contacts .socials {
+            display: grid;
+            grid-template-areas: "insta fb telegram whatsapp viber";
+        }
+        footer #footer-wrapper #contacts .socials #viber {
+            grid-area: viber;
+        }
+        footer #footer-wrapper #contacts .socials #fb {
+            grid-area: fb;
+        }
+        footer #footer-wrapper #contacts .socials #insta {
+            grid-area: insta;
+        }
+        footer #footer-wrapper #contacts .socials #whatsapp {
+            grid-area: whatsapp;
+        }
+        footer #footer-wrapper #contacts .socials #telegram {
+            grid-area: telegram;
+        }
+        footer #footer-wrapper #contacts .socials a {
+            margin: auto;
+        }
+        footer #copy {
+            display: none;
+        }
+}

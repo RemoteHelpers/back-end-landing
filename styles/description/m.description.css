@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+    #description {
+        background: no-repeat url("../../assets/main_page/description_icons/mobile/bg.png");
+        background-color: #171018;
+        background-size: 100% 100%;
+    }
+    #description #description-wrapper {
+        padding-top: 50px;
+    }
+    #description #description-wrapper #description-wrapper-content h2 {
+        padding-bottom: 50px;
+    }
+    #description img {
+        position: relative;
+        width: 100%;
+        top: 60px;
+    }
+
+    #description #description-wrapper #description-wrapper-content-heading, .description-wrapper-content-text {
+        color: black;
+    }
+
+}

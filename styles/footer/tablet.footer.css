@@ -1,0 +1,97 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #responsibilities footer {
+        margin-top: 100px;
+    }
+    
+    #footer-logo {
+        padding-bottom: 50px;
+    }
+
+    #responsibilities footer #footer-wrapper .contact {
+        color: #fff;
+        display: flex;
+    }
+    
+    #responsibilities footer #footer-wrapper #contacts {
+        display: grid;
+        grid-template-rows: 4rem 4rem 4rem;
+        grid-template-columns: 45% 55%;
+        grid-template-areas: "contact1 socials" "contact2 email" "contact3 address";
+    }
+    
+    #responsibilities footer #footer-wrapper #contacts .contact1 {
+        margin: auto auto auto 10px;
+        grid-area: contact1;
+        color: #fff;
+    }
+    
+    #responsibilities footer #footer-wrapper #contacts .contact2  {
+        margin: auto auto auto 10px;
+        grid-area: contact2;
+        color: #fff;
+    }
+    
+    #responsibilities footer #footer-wrapper #contacts .contact3 {
+        margin: auto auto auto 10px;
+        grid-area: contact3;
+        color: #fff;
+    }
+    
+    #responsibilities footer #footer-wrapper #contacts .socials {
+        display: block;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        grid-area: socials;
+    }
+
+    #responsibilities footer #footer-wrapper #contacts .socials a img {
+        margin: auto 0px auto 10px;
+    }
+
+    #responsibilities footer #footer-wrapper #contacts .contact1 a, .contact2 a, .contact3 a {
+        display: flex;
+        margin-right: 100px;
+    }
+    #responsibilities footer #footer-wrapper #contacts .contact1 a p,
+    #responsibilities footer #footer-wrapper #contacts .contact2 a p, 
+    #responsibilities footer #footer-wrapper #contacts .contact3 a p {
+        margin-left: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: medium;
+        line-height: 0;
+    }
+
+    
+    #responsibilities footer #footer-wrapper #contacts .email {
+        text-align: right;
+        grid-area: email;
+        margin: auto 0px;
+    }
+    
+    #responsibilities footer #footer-wrapper #contacts .email a {
+        color: #fff;
+        margin: auto 0px;
+    }
+    
+    #responsibilities footer #footer-wrapper #contacts .address {
+        grid-area: address;
+        margin: auto 0px;
+        text-align: right;
+    }
+    
+    #responsibilities footer #footer-wrapper #contacts .address p {
+  
+        color: #fff;
+    }
+    
+    #responsibilities footer #copy {
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-family: Montserrat-Thin;
+        font-size: 14px;
+    }
+}

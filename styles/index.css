@@ -1,0 +1,129 @@
+@import url('./vacancy_header/vacancy-header.css');
+@import url('./about_us/about-us.css');
+@import url('./description/description.css');
+@import url('./responsibilities/responsibilities.css');
+@import url('./footer/footer.css');
+/*adaptive-mobile styles import*/
+@import url('./vacancy_header/m.vacancy-header.css');
+@import url('./about_us/m.about-us.css');
+@import url('./description/m.description.css');
+@import url('./responsibilities/m.responsibilities.css');
+@import url('./footer/m.footer.css');
+/*adaptive-tablet styles import*/
+@import url('./vacancy_header/tablet.vacancy-header.css');
+@import url('./about_us/tablet.about-us.css');
+@import url('./description/tablet.description.css');
+@import url('./responsibilities/tablet.responsibilities.css');
+@import url('./footer/tablet.footer.css');
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Extrabold';
+    src: url('../fonts/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('../fonts/Montserrat-Thin.ttf')
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        font-family: Montserrat-Regular;
+        font-weight: 400px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+    }
+    
+    h2 {
+        font-family: Montserrat-Extrabold;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 150%;
+    }
+    
+    h3 {
+        font-family: Montserrat-bold;
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    #main-wrapper, #about-us-wrapper, #description-wrapper, #responsibilities-wrapper, #responsibilities-wrapper {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #main-wrapper, #about-us-wrapper, #description-wrapper, #responsibilities-wrapper, #responsibilities-wrapper {
+        padding: 10px;
+        width: 90vw;
+        margin: auto;
+    }
+
+    p {
+        font-family: Montserrat-Regular;
+        font-weight: 400px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        color: #fff;
+    }
+    h2 {
+        font-family: Montserrat-Extrabold;
+        font-style: normal;
+        line-height: 150%;
+        color: #fff;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        color: #fff;
+    }
+    
+    h3 {
+        font-family: Montserrat-bold;
+        font-size: 21px;
+        color: #fff;
+    }
+}
+
+h1, div, body, h3, h2, a, span {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.special-color {
+    color: #8E3CF6;
+}
+
+.hidden {
+    display: none;
+}
+

@@ -1,0 +1,98 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #main {
+        background: no-repeat url("../../assets/main_page/vacancy-header_icons/desktop/bg.png"), url('../../assets/main_page/vacancy-header_icons/desktop/bg2.png');
+        background-color: #171018;
+        background-size: 100% 100%;
+    }
+    #main #main-wrapper {
+        padding: 10px 10px 400px 10px;
+        width: 80%;
+        margin: auto;
+    }
+    
+     #main-wrapper header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        padding-top: 15px;
+    }
+    
+     #main-wrapper header nav {
+        margin: auto 0px;
+    }
+    
+     #main-wrapper header nav a {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 15px;
+    }
+    
+    #main-wrapper #main-wrapper-vacancy {
+        display: block;
+        width: 520px;
+        color: #fff;
+    }
+    #main-wrapper #main-wrapper-vacancy h1:nth-child(1) {
+        color: #8E3CF6;
+        font-family: Montserrat-Extrabold;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    #main-wrapper #main-wrapper-vacancy h1:nth-child(2) {
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    padding-bottom: 50px;
+    }
+    #main-wrapper #main-wrapper-vacancy p {
+        font-family: Montserrat-Thin;
+        font-size: 18px;
+        font-weight: 400px;
+        padding-bottom: 30px;
+        margin: auto;
+    }
+    #main #main-wrapper header section .mobile-menu {
+    display: none;
+}
+
+#main-wrapper #main-wrapper-vacancy .button {
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 75px;
+    text-decoration: none;
+    background: #8E3CF6;
+    border: 1px solid #8E3CF6;
+    box-sizing: border-box;
+    font-family: Montserrat-semibold;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+#main-wrapper #main-wrapper-vacancy .button:hover {
+    background-color: #fff;
+    color: #8E3CF6;
+}
+
+#main-wrapper #main-wrapper-vacancy .button:active {
+    background-color: #8E3CF6;
+    color: #000000;
+}
+#burger-img {
+    display: none;
+}
+.mobile-close-btn {
+    display: none;
+}
+.mobile-girl-img {
+    display: none;
+}
+
+}

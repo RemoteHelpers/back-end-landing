@@ -1,0 +1,185 @@
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+    h1, div, body, h3, h2, a, span {
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+        body {
+            background: no-repeat url("../../assets/thank_you_page/bg-thank-you-page-image.png"), url("../../assets/thank_you_page/bg.png");
+            background-color: #171018;
+            background-size: cover;
+            display: flex;
+        }
+        
+         #wrapper {
+            margin: auto;
+            padding: 10px;
+            width: 90%;
+        }
+        
+         #wrapper header {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+         #wrapper header nav {
+            margin: auto 0px;
+        }
+        
+         #wrapper header nav a {
+            text-decoration: none;
+            color: #fff;
+            margin-left: 15px;
+    
+    font-family: Montserrat-Regualr;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+        }
+        
+        
+         #content #tnx {
+            font-size: 96px;
+            font-weight: bold;
+            color: #8E3Cf6;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            font-family: Montserrat;
+            font-weight: 900;
+            line-height: 125%;
+        }
+        
+         #content #msg {
+            font-size: 50px;
+            color: #fff;
+            font-family: Montserrat-Extrabold;
+            color: #FFFFFF;
+            margin-bottom: 50px;
+        }
+        
+         #content #button {
+            padding: 20px 120px 20px 120px;
+            text-decoration: none;
+            background: #8E3CF6;
+            border: 1px solid #8E3CF6;
+            box-sizing: border-box;
+            font-family: Montserrat-semibold;
+            font-style: normal;
+            font-size: 15px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+        }
+        
+         #content #button:hover {
+            background-color: #fff;
+            color: #8E3CF6;
+        }
+        
+         #content #button:active {
+            background-color: #8E3CF6;
+            color: #000000;
+        }
+        
+         footer {
+            margin-top: 100px;
+        }
+        
+        #footer-logo {
+            margin-bottom: 50px;
+        }
+    
+         footer #footer-wrapper .contact {
+            color: #fff;
+            display: flex;
+        }
+        
+         footer #footer-wrapper #contacts {
+            display: grid;
+            grid-template-rows: 4rem 4rem 4rem;
+            grid-template-columns: 45% 55%;
+            grid-template-areas: "contact1 socials" "contact2 email" "contact3 address";
+        }
+        
+         footer #footer-wrapper #contacts .contact1 {
+            margin: auto auto auto 10px;
+            grid-area: contact1;
+        }
+        
+         footer #footer-wrapper #contacts .contact2  {
+            margin: auto auto auto 10px;
+            grid-area: contact2;
+        }
+        
+         footer #footer-wrapper #contacts .contact3 {
+            margin: auto auto auto 10px;
+            grid-area: contact3;
+        }
+        
+         footer #footer-wrapper #contacts .socials {
+            display: block;
+            margin-left: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            grid-area: socials;
+        }
+    
+         footer #footer-wrapper #contacts .socials a img {
+            margin: auto 0px auto 10px;
+        }
+    
+         footer #footer-wrapper #contacts .contact1 a, .contact2 a, .contact3 a {
+            color: #fff;
+            display: flex;
+            margin-right: 100px;
+        }
+         footer #footer-wrapper #contacts .contact1 a p,
+         footer #footer-wrapper #contacts .contact2 a p, 
+         footer #footer-wrapper #contacts .contact3 a p {
+            margin-left: 10px;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: medium;
+            line-height: 0;
+        }
+    
+        
+         footer #footer-wrapper #contacts .email {
+            text-align: right;
+            grid-area: email;
+            margin: auto 0px;
+        }
+        
+         footer #footer-wrapper #contacts .email a {
+            color: #fff;
+            margin: auto 0px;
+        }
+        
+         footer #footer-wrapper #contacts .address {
+            grid-area: address;
+            margin: auto 0px;
+            text-align: right;
+        }
+        
+         footer #footer-wrapper #contacts .address p {
+      
+            color: #fff;
+        }
+        
+         footer #copy {
+            color: #fff;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            font-family: Montserrat-Thin;
+            font-size: 14px;
+        }
+    
+        #burger-img {
+            display: none;
+        }
+        .mobile-close-btn {
+            display: none;
+        }
+}

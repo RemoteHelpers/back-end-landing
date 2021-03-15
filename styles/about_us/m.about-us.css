@@ -1,0 +1,52 @@
+@media (max-width: 767px) {
+    #about-us {
+        background: no-repeat url("../../assets/main_page/about-us_icons/mobile/bg.png");
+        background-color: #171018;
+        background-size: 100% 100%;
+    }
+    #about-us #about-us-wrapper {
+        padding-top: 100px;
+    }
+    #about-us #about-us-wrapper #about-us-wrapper-description {
+        display: grid;
+        grid-template-areas: "d" "i";
+        text-align: left;
+    }
+    #about-us #about-us-wrapper #about-us-wrapper-description #about-us-wrapper-description-heading {
+        padding-bottom: 50px;
+    }
+
+    #about-us #about-us-wrapper #about-us-wrapper-description img {
+        grid-area: i;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    #about-us #about-us-wrapper #about-us-wrapper-description div {
+        grid-area: d;
+        margin-bottom: 15px;
+    }
+
+#about-us #about-us-wrapper #about-us-wrapper-advantages #about-us-wrapper-advantages-heading {
+    color: #fff;
+    margin-bottom: 100px;
+}
+#about-us #about-us-wrapper #about-us-wrapper-advantages #about-us-wrapper-advantages-list section {
+    display: grid;
+    grid-template-areas: "i h h" "p p p";
+    margin-bottom: 50px;
+}
+#about-us #about-us-wrapper #about-us-wrapper-advantages #about-us-wrapper-advantages-list section h3  {
+    max-width: 150px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    grid-area: h;
+}
+#about-us #about-us-wrapper #about-us-wrapper-advantages #about-us-wrapper-advantages-list section img  {
+    grid-area: i;
+    margin-bottom: 15px;
+}
+#about-us #about-us-wrapper #about-us-wrapper-advantages #about-us-wrapper-advantages-list section p  {
+    grid-area: p;
+}
+
+}
