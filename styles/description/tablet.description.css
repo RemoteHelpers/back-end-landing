@@ -6,11 +6,6 @@
         padding-top: 50px;
         padding-bottom: 100px;
     }
-    #description #description-wrapper {
-        padding: 10px;
-        width: 80%;
-        margin: auto;
-    }
     #description #laptop-img {
         display: none;
     }
