@@ -10,7 +10,7 @@ class InputHandler {
             inputField.addEventListener('input', () => {
                     this.validateInputs(inputField)
                     this.checkInputEntries(this.inputIds)
-            })
+            }) 
         })
     }
     checkInputEntries(fields) {
@@ -55,7 +55,6 @@ class InputHandler {
 
     displayCustomMessage(input, show) {
         if (show) {
-            //input.attributes.id.nodeValue === id
             if (input.id === 'name') {
                 input.previousElementSibling.innerText = 'Пожалуйста, введите ваше имя'
             } else if (input.id === 'email') {
